@@ -16,6 +16,7 @@
 		19B402C2264045F200A88BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B402C0264045F200A88BF8 /* LaunchScreen.storyboard */; };
 		19B402CD2640988400A88BF8 /* ControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B402CB2640988400A88BF8 /* ControllerCell.swift */; };
 		19B402CE2640988400A88BF8 /* ControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B402CC2640988400A88BF8 /* ControllerCell.xib */; };
+		19E4D8EE2641D43E00DC0196 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4D8ED2641D43E00DC0196 /* DetailPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		19B402C3264045F200A88BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B402CB2640988400A88BF8 /* ControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerCell.swift; sourceTree = "<group>"; };
 		19B402CC2640988400A88BF8 /* ControllerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControllerCell.xib; sourceTree = "<group>"; };
+		19E4D8ED2641D43E00DC0196 /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				19B402CC2640988400A88BF8 /* ControllerCell.xib */,
 				19B402B9264045F100A88BF8 /* ViewController.swift */,
 				19B402BB264045F100A88BF8 /* Main.storyboard */,
+				19E4D8ED2641D43E00DC0196 /* DetailPageViewController.swift */,
 				19883B8A2640A62900C8ACFF /* Product.swift */,
 				19B402BE264045F200A88BF8 /* Assets.xcassets */,
 				19B402C0264045F200A88BF8 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E4D8EE2641D43E00DC0196 /* DetailPageViewController.swift in Sources */,
 				19B402BA264045F100A88BF8 /* ViewController.swift in Sources */,
 				19B402B6264045F100A88BF8 /* AppDelegate.swift in Sources */,
 				19883B8B2640A62900C8ACFF /* Product.swift in Sources */,

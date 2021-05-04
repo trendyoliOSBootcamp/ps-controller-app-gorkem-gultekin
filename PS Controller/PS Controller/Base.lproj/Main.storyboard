@@ -106,12 +106,9 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="c7F-Ut-iT3">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="c7F-Ut-iT3">
                                 <rect key="frame" x="0.0" y="562" width="414" height="300"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="B7Y-UG-aQD"/>
-                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="40" minimumInteritemSpacing="40" id="rcq-rX-C8K">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -129,26 +126,28 @@
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Jlu-oD-R39"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="6Z2-Op-wMZ"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="vd4-1D-DGo"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0Ca-ip-qPM"/>
                                 </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="En8-8R-WXR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3kc-hd-uTR"/>
-                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4uS-UK-iC6"/>
-                            <constraint firstItem="En8-8R-WXR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8o1-2M-Byz"/>
-                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9kg-66-Ioy"/>
-                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BBw-3n-p5J"/>
-                            <constraint firstItem="En8-8R-WXR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bou-2g-cZS"/>
-                            <constraint firstAttribute="bottom" secondItem="En8-8R-WXR" secondAttribute="bottom" id="Egk-mN-N4j"/>
+                            <constraint firstItem="En8-8R-WXR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AeS-c4-hBD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dcd-lK-OoC" secondAttribute="trailing" symbolic="YES" id="U89-7d-OmY"/>
                             <constraint firstItem="Dcd-lK-OoC" firstAttribute="top" secondItem="QmM-1I-rwe" secondAttribute="bottom" id="XHK-sh-EC4"/>
+                            <constraint firstItem="En8-8R-WXR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bYU-YS-vuO"/>
                             <constraint firstItem="Dcd-lK-OoC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="cpo-Wt-FIP"/>
-                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="518" id="hRy-BH-TBS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c7F-Ut-iT3" secondAttribute="bottom" id="g6h-ID-nrk"/>
+                            <constraint firstItem="En8-8R-WXR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gJz-it-BgE"/>
+                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="518" id="gmK-ZQ-3Sz"/>
+                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.334821" id="kmy-2g-Xnu"/>
+                            <constraint firstAttribute="bottom" secondItem="En8-8R-WXR" secondAttribute="bottom" id="mxo-e8-ec5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c7F-Ut-iT3" secondAttribute="trailing" id="n3h-vI-Mc6"/>
+                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="pz6-xL-6Er"/>
                             <constraint firstItem="QmM-1I-rwe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="uoz-hn-Ouo"/>
+                            <constraint firstItem="c7F-Ut-iT3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vgR-La-P4M"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QmM-1I-rwe" secondAttribute="trailing" constant="23" id="x2k-pL-MzB"/>
                             <constraint firstItem="c5g-fn-wQK" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="y9c-Tu-vmM"/>
                             <constraint firstItem="c5g-fn-wQK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zHb-R7-LGJ"/>
@@ -158,16 +157,17 @@
                         <outlet property="basketButton" destination="QmM-1I-rwe" id="z7T-q7-c1o"/>
                         <outlet property="collectionView" destination="c7F-Ut-iT3" id="cZu-g9-qah"/>
                         <outlet property="titleLabel" destination="Dcd-lK-OoC" id="QSG-0e-ztK"/>
+                        <segue destination="aYe-oM-CCp" kind="show" identifier="DetailPage" id="kpa-Ls-EQa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Page View Controller-->
         <scene sceneID="oAa-UA-u3X">
             <objects>
-                <viewController storyboardIdentifier="DetailPage" id="aYe-oM-CCp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailPage" modalPresentationStyle="fullScreen" id="aYe-oM-CCp" customClass="DetailPageViewController" customModule="PS_Controller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Muq-gv-bPs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,6 +220,10 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="L9X-lh-emk"/>
                                 </constraints>
                                 <state key="normal" image="iconfinderIcon"/>
+                                <connections>
+                                    <action selector="exitButtonClicked:" destination="FBa-pS-HCr" eventType="touchUpInside" id="Vub-wM-mTL"/>
+                                    <action selector="exitButtonClicked:" destination="aYe-oM-CCp" eventType="touchUpInside" id="Zua-hG-np8"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oQ1-dT-WNk">
                                 <rect key="frame" x="28" y="142" width="79" height="40"/>
@@ -440,8 +444,10 @@
                             <constraint firstItem="Ndg-Bi-jTS" firstAttribute="top" secondItem="4Oz-zd-vsO" secondAttribute="bottom" constant="29" id="yhw-m4-Wz0"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vcJ-qm-llN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8P-ia-60C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="FBa-pS-HCr" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="892.75362318840587" y="83.705357142857139"/>
         </scene>

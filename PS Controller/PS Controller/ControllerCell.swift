@@ -4,7 +4,6 @@
 //
 //  Created by Görkem Gültekin on 3.05.2021.
 //
-
 import UIKit
 
 class ControllerCell: UICollectionViewCell {
@@ -14,5 +13,4 @@ class ControllerCell: UICollectionViewCell {
     func configure(image:UIImage?) {
         imageView.image = image
     }
-
 }
